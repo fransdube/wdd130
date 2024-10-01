@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #574ae2;
+    --secondary-color: #222a68;
+    --accent1-color: #654597;
+    --accent2-color: #AB81CD;
+    --text-color: #FFFFFF;
+    --background-color: rgba(255, 255, 255, 0.9);
+    --footer-bg-color: #222a68;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--accent1-color);
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+p {
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 10px;
+}
+
+.sociallinks a:hover {
+    opacity: 0.7;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+    z-index: 1;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    background-color: var(--background-color);
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 10px;
+}
