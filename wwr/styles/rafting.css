@@ -7,6 +7,44 @@
     --background-color: rgba(255, 255, 255, 0.9);
     --footer-bg-color: #222a68;
 }
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 70% 1fr 2fr;
+	align-items: center;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 164px;
+	height: auto;
+}
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: rgb(172, 173, 175);
+	font-weight: 700;
+	text-decoration: underline;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -79,4 +117,45 @@ p {
 .hero article img {
     float: right;
     margin-left: 10px;
+}
+.adventures {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Space between figures */
+}
+
+figure {
+  margin: 0; /* Remove default margins */
+  text-align: center; /* Center caption text */
+}
+
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+.adventures {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between figures */
+  }
+  
+  figure {
+    margin: 0; /* Remove default margins */
+    text-align: center; /* Center caption text */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+footer {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 70% 1fr 2fr;
+	align-items: center;
+}
+.history{
+    margin: 0; /* Remove default margins */
+    text-align: center; /* Center caption text */
+    text-decoration-color: #ff2929;
 }
