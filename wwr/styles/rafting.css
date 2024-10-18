@@ -159,3 +159,64 @@ footer {
     text-align: center; /* Center caption text */
     text-decoration-color: #ff2929;
 }
+/* Example CSS rules for the Contact Us page */
+#company-info {
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF; /* Example color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.employee-profiles {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-around; /* Space between items */
+    margin-top: 20px; /* Add some spacing above */
+}
+
+.profile {
+    text-align: center; /* Center the caption under the image */
+    margin: 0 10px; /* Add horizontal spacing between profiles */
+}
+
+.profile img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+caption {
+    display: block; /* Make caption take a full line */
+    margin-top: 5px; /* Space above caption */
+    font-weight: bold; /* Optional: Make caption bold */
+}
