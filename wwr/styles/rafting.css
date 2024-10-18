@@ -212,7 +212,7 @@ button:hover {
 .profile img {
     max-width: 100%; /* Ensure images are responsive */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    border-radius: 4px; /* Optional: Add rounded corners */
 }
 
 caption {
